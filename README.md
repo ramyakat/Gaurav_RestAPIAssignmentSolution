@@ -13,11 +13,11 @@ APIs:
 		listRoles : GET  : Lists all available roles 
 		
 		newRole   : POST : Adds new role to DB. We need to provide name of the role. The server checks if 
-						   a role with given name exists. If not, then it adds to the DB.
+				   a role with given name exists. If not, then it adds to the DB.
 						   
 		newUser   : POST : Adds new user along with its roles. Takes 3 params: username, password and name 
-						   of role. It checks if role exists, otherwise adds it. Then it adds the user to 
-						   DB with encrypted password.
+				   of role. It checks if role exists, otherwise adds it. Then it adds the user to 
+				   DB with encrypted password.
 						   
 		Note: There is no option to get list of all users as that would be undesirable for security aspect.
 		
