@@ -1,4 +1,4 @@
-# Gaurav_RestAPIAssignmentSolution
+# Ramya_RestAPIAssignmentSolution
 Graded Coding Assignment 6 (Spring Boot - RESTful APIs)
 
 -----
